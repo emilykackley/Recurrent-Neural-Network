@@ -2,7 +2,7 @@
 
 ## Logistic Regression
 - This code uses a model from the MNIST(Mixed National Institute of Standard and Technology) database using one-hot encoding to make a prediction using Logistic Regression 
-  ### Approach
+### Approach
   - Use the MNIST dataset from split it into data and labels
       * dataset = input_data.read_data_sets("/data/mnist", one_hot=True)
   - Define parameters and create tensor placeholders for x and y to accomodate batch size data points  
